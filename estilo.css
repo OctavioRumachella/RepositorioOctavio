@@ -1,0 +1,98 @@
+body {
+  background-image: url(/huellas.jpeg);
+  background-color: rgb(0, 0, 0);
+}
+header {
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgb(71, 70, 70) 0%,
+    rgba(135, 133, 133, 1) 47%,
+    rgba(205, 205, 205, 1) 72%,
+    rgba(255, 255, 255, 1) 100%,
+    rgba(255, 255, 255, 0.17633410672853833) 100%
+  );
+  justify-content: center;
+  border: ridge 5px rgb(76, 76, 76);
+}
+header h1 {
+  text-shadow: 5px 5px 4px black;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 60px;
+  color: rgb(6, 6, 6);
+  -webkit-text-stroke: 2px;
+  -webkit-text-fill-color: rgb(255, 255, 255);
+}
+
+.imagen-contenedor {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+}
+main {
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  padding: 60px;
+  margin-top: 15px;
+  background: rgb(70, 69, 69);
+  background: linear-gradient(
+    90deg,
+    rgb(71, 70, 70) 0%,
+    rgba(135, 133, 133, 1) 47%,
+    rgba(205, 205, 205, 1) 72%,
+    rgba(255, 255, 255, 1) 100%,
+    rgba(255, 255, 255, 0.17633410672853833) 100%
+  );
+  border: ridge 5px rgb(76, 76, 76);
+}
+.imagen-contenedor img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  margin-right: 10px;
+  border-radius: 15px;
+}
+
+#footer {
+  border-top: 1px black double;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  padding: 20px;
+  background: rgb(2, 0, 36);
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgb(71, 70, 70) 0%,
+    rgba(135, 133, 133, 1) 47%,
+    rgba(205, 205, 205, 1) 72%,
+    rgba(255, 255, 255, 1) 100%,
+    rgba(255, 255, 255, 0.17633410672853833) 100%
+  );
+  border: ridge 5px rgb(76, 76, 76);
+}
+.botones button {
+  border-radius: 6px;
+  cursor: pointer; 
+  font-size: 15px;
+  background-color: rgba(234, 169, 15, 0.384);
+  padding: 4px 4px;rgba(125, 95, 26, 0.384)rgba(201, 145, 13, 0.384)rgba(247, 188, 51, 0.384)rgba(214, 160, 32, 0.384)
+  
+}
+.derechosdeautor {
+  border-radius: 15px;
+  background-color: rgb(93, 94, 94);
+  padding: 10px;
+  border: ridge 5px rgb(76, 76, 76);
+}
+.copyright p {
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+}
